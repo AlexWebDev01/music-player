@@ -14,7 +14,7 @@ const nextBtn = document.getElementById('next');
 const songs = [
     {
         name: 'jacinto-1',
-        displayName: 'Electric Chillc Machine',
+        displayName: 'Electric Chill Machine',
         artist: 'Jacinto Design',
     },
     {
