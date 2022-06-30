@@ -24,7 +24,7 @@ const songs = [
     },
     {
         name: 'jacinto-3',
-        displayName: 'Electric Chillc Machine',
+        displayName: 'Electric Chill Machine',
         artist: 'Jacinto Design',
     },
     {
