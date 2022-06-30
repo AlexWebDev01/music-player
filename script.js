@@ -93,7 +93,6 @@ loadSong(songs[songIndex]);
 
 // Update Progress Bar & Time
 function updateProgressBar(e) {
-    if (isPlaying) {
         const { duration, currentTime } = e.srcElement;
         // Update progress bar width
         const progressPercent = (currentTime / duration) * 100;
@@ -116,7 +115,7 @@ function updateProgressBar(e) {
         }
         currentTimeEl.textContent = `${currentMinutes}:${currentSeconds}`;
     }
-}
+
 
 // Set Progress Bar
 function setProgressBar(e) {
